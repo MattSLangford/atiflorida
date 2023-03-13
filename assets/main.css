@@ -11,6 +11,7 @@ body {
 p {
 	line-height: 1.5;
 	max-width: 650px;
+	margin: 0 auto 20px;
 }
 
 a, a:visited {
@@ -20,6 +21,13 @@ a, a:visited {
 a:hover {
 	color: #296273;
 	border-bottom: 2px solid #296273;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+h1 {
+	font-size: 28px;
 }
 
 /* CONTAINER AND FLEXES*/
