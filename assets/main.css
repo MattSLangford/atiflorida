@@ -109,4 +109,11 @@ nav ul li {
 footer {
 	background: #28434C;
 	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+}
+
+footer a, footer a:hover, footer a:visited {
+	color: #fff;
+	border-bottom: 2px solid #fff;
 }
