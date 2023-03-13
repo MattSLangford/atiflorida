@@ -17,6 +17,7 @@ p {
 a, a:visited {
 	color: #2A94B2;
 	text-decoration: none;
+	transition: 0.1s;
 }
 a:hover {
 	color: #296273;
@@ -130,6 +131,7 @@ input[type=submit] {
 	border: 1px solid #2A94B2;
 	color: white;
 	cursor: pointer;
+	transition: 0.1s;
 }
 input[type=submit]:hover {
 	background: #296273;
