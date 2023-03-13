@@ -175,7 +175,7 @@ footer a, footer a:hover, footer a:visited {
 	.hero img {width: 100%; height: 200px; object-fit: cover;}
 	h1 {font-size: 28px;}
 	.major-container {padding: 10px;}
-	input, textarea {width: auto; margin-left: 0;}
+	input, textarea {width: auto; margin-left: 0; display: block;}
 	h2, h3, h4, h5, h6 {text-align: left; margin-bottom: 10px;}
 	.fact {padding: 10px 40px;}
 	nav ul li a {background: #2A94B2; color: #fff !important; padding: 3px 10px; border-radius: 5px;}
