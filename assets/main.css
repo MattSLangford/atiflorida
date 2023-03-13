@@ -23,7 +23,7 @@ body {
 	flex: 1;
 }
 
-flex-child-2 {
+.flex-child-2 {
 	flex: 2;
 }
 
