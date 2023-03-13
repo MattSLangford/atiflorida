@@ -173,5 +173,5 @@ footer a, footer a:hover, footer a:visited {
 	.hero img {width: 100%; height: 200px; object-fit: cover;}
 	h1 {font-size: 28px;}
 	.major-container {padding: 10px;}
-	input {width: auto; margin-left: 0;}
+	input, textarea {width: auto; margin-left: 0;}
 }
