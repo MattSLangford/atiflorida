@@ -15,6 +15,17 @@
 		<meta property="og:url" content="">
 		<meta property="og:site_name" content="">
 		<meta property="og:image" content="">
+		<script>
+			$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+
+	var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	} /* speed */ );
+});
+		</script>
 	</head>
 	<body>
 			<header>
