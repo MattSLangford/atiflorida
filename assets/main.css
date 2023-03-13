@@ -14,7 +14,7 @@ a, a:visited {
 }
 a:hover {
 	color: #296273;
-	border-bottom: 1px solid #296273;
+	border-bottom: 2px solid #296273;
 }
 
 /* CONTAINER AND FLEXES*/
@@ -50,6 +50,10 @@ nav {
 
 nav ul {
 	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
 }
 
 nav ul li {
