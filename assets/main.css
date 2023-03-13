@@ -148,11 +148,11 @@ input[type=submit] {
 	color: white;
 	cursor: pointer;
 	transition: 0.1s;
+	-webkit-appearance: none;
+	display: block;
 }
 input[type=submit]:hover {
 	background: #296273;
-	display: block;
-	-webkit-appearance: none;
 }
 
 footer {
