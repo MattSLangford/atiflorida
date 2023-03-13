@@ -7,12 +7,24 @@ body {
 	  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-/* CONTAINER */
+/* CONTAINER AND FLEXES*/
 
 .container {
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 20px;
+}
+
+.flex {
+	display: flex
+}
+
+.flex-child {
+	flex: 1;
+}
+
+flex-child-2 {
+	flex: 2;
 }
 
 /* HEADER */
