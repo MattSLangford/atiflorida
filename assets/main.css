@@ -125,6 +125,12 @@ input, textarea {
 	margin: 0 20px 10px 20px;
 }
 
+input[type=submit] {
+	background: #296273;
+	border: 1px solid #28434C;
+	color: white;
+}
+
 footer {
 	background: #28434C;
 	color: #fff;
