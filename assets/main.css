@@ -30,6 +30,7 @@ body {
 /* HEADER */
 .logo img {
 	width: 100%;
+	max-width: 200px;
 }
 
 nav ul {
