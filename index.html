@@ -15,17 +15,6 @@
 		<meta property="og:url" content="">
 		<meta property="og:site_name" content="">
 		<meta property="og:image" content="">
-		<script>
-			$("a[href^='#']").click(function(e) {
-	e.preventDefault();
-
-	var position = $($(this).attr("href")).offset().top;
-
-	$("body, html").animate({
-		scrollTop: position
-	} /* speed */ );
-});
-		</script>
 	</head>
 	<body>
 			<header>
@@ -35,8 +24,8 @@
 					</div>
 					<nav class="flex-child-2">
 						<ul>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#about" onclick="scrolldiv()">About</a></li>
+							<li><a href="#contact" onclick="scrolldiv()">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
