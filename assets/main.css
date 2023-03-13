@@ -164,3 +164,7 @@ footer a, footer a:hover, footer a:visited {
 	color: #fff;
 	border-bottom: 2px solid #fff;
 }
+
+@media only screen and (max-width: 700px) {
+	flex: display: normal;
+}
