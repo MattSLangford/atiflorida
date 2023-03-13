@@ -60,6 +60,13 @@ h6 {
 	padding: 20px;
 }
 
+.fact {
+	background: #eee;
+	margin: 10px;
+	border-radius: 5px;
+	color: #28434C;
+}
+
 .flex {
 	display: flex
 }
