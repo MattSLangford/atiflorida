@@ -41,3 +41,7 @@ nav ul {
 nav ul li {
 	display: inline;
 }
+
+.hero, .hero img {
+	max-width: 100%;
+}
