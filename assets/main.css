@@ -32,10 +32,10 @@ flex-child-2 {
 	width: 200px;
 }
 
-.nav ul {
+nav ul {
 	list-style-type: none;
 }
 
-.nav ul li {
+nav ul li {
 	display: inline;
 }
