@@ -151,6 +151,8 @@ input[type=submit] {
 }
 input[type=submit]:hover {
 	background: #296273;
+	display: block;
+	-webkit-appearance: none;
 }
 
 footer {
