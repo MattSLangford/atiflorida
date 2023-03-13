@@ -117,6 +117,10 @@ nav ul li {
 	margin-top: 0;
 }
 
+form .hidden {
+	display: none;
+}
+
 input, textarea {
 	width: 100%;
 	padding: 10px 15px;
