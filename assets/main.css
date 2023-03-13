@@ -106,6 +106,14 @@ nav ul li {
 	color: #fff;
 }
 
+input {
+	width: 100%;
+	padding: 5px 15px;
+	font-size: 16px;
+	border: 1px solid #28434C;
+	border-radius: 5px;
+}
+
 footer {
 	background: #28434C;
 	color: #fff;
