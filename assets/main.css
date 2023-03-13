@@ -46,14 +46,14 @@ a:hover {
 nav {
 	text-align: right;
 	font-weight: bold;
-}
-
-nav ul {
-	list-style-type: none;
 	display: flex;
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
+}
+
+nav ul {
+	list-style-type: none;
 }
 
 nav ul li {
