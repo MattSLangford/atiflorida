@@ -126,9 +126,12 @@ input, textarea {
 }
 
 input[type=submit] {
-	background: #296273;
+	background: #2A94B2;
 	border: 1px solid #28434C;
 	color: white;
+}
+input[type=submit]:hover {
+	background: #286273;
 }
 
 footer {
