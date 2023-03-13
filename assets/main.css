@@ -8,6 +8,15 @@ body {
 	  margin: 0;
 }
 
+a, a:visited {
+	color: #2A94B2;
+	text-decoration: none;
+}
+a:hover {
+	color: #296273;
+	border-bottom: 1px solid #296273;
+}
+
 /* CONTAINER AND FLEXES*/
 
 .container {
@@ -36,6 +45,7 @@ body {
 
 nav {
 	text-align: right;
+	font-weight: bold;
 }
 
 nav ul {
