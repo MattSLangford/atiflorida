@@ -176,4 +176,5 @@ footer a, footer a:hover, footer a:visited {
 	h1 {font-size: 28px;}
 	.major-container {padding: 10px;}
 	input, textarea {width: auto; margin-left: 0;}
+	h1, h2, h3, h4, h5, h6 {text-align: left;}
 }
