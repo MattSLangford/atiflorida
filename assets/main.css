@@ -70,6 +70,7 @@ h6 {
 	border-radius: 5px;
 	color: #28434C;
 	padding: 10px;
+	border-top: 10px solid #28434C;
 }
 
 .flex {
