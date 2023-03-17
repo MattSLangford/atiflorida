@@ -28,8 +28,8 @@
 					</div>
 					<nav class="flex-child-2">
 						<ul>
-							<li><a href="#about">About</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li><a href="#about" onclick="scrollToSection('about')">About</a></li>
+							<li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -92,5 +92,11 @@
 					<p>811 Archer Rd<br>Cantonment, FL 32533<p>
 				</div>
 			</footer>
+		<script>
+    		function scrollToSection(sectionId) {
+      		const section = document.querySelector(`#${sectionId}`);
+      		section.scrollIntoView({ behavior: "smooth" });
+    		}
+  		</script>
 	</body>
 </html>
